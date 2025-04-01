@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Young_Serif;
+    font-style: normal;
+    font-weight: 200 700;
+    font-display: swap;
+    src: url("/assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: Outfit;
+    font-style:normal;
+    font-weight: 200 700;
+    font-display: swap;
+    src: url("/assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+  }
+
+  @theme {
+    --font-Young_Serif: "Young_Serif", "sans-serif";
+    --font-Outfit: "Outfit", "sans-serif";
+
+  }
